@@ -3,12 +3,12 @@
 ### [Paper](https://arxiv.org/abs/2508.02261) 
 
 ## News
-- **2025.11.08**: Accepted to **AAAI** 2026 as **oral** presentation! 🎉
+- **2025.11.08**: Accepted to **AAAI** 2026 as **oral** presentation! 🎉 Stay tuned for more updates!
+- **2025.08.04**: SplatSSC is avaliable on arixv.
  
 EmbodiedOcc formulates **a monocular 3D occupancy prediction task** and proposes a Gaussian-based framework to accomplish it.
 ![overview](./assets/appendix_base.png)
 
----- 
 
 ## Overview
 
@@ -94,12 +94,9 @@ SplatSSC
 2. Our code is based on [EmbodiedOcc](https://github.com/ykiwu/embodiedocc) and [GaussianFormer](https://github.com/huang-yh/GaussianFormer).
 
 ## License 
-
-The source code and trained models associated with this paper will be made publicly available upon acceptance. The repository will be hosted on GitHub, and the specific URL will be provided here.
-
 All our original source code is licensed under the [CC-BY-NC-SA-4.](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. This permits any non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited and any derivative works are shared under the same license.
 
-## Citation
+## 📚 Citation
 If you find this project helpful, please consider citing the following paper:
 ```
 @article{qian2025splatssc,
