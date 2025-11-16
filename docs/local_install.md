@@ -49,9 +49,9 @@ cd loss/ops/occ_prob && pip install -e .
 cd ../../..
 ```
 
-## 4. Install the additional dependencies and third-party models
+## 4. Install additional dependencies and third-party models
 
-1. Install the additional dependencies (optional). 
+1. Install additional dependencies (**optional**). 
 
    ```bash
    cd SplatSSC 
@@ -83,7 +83,7 @@ cd ../../..
    ├── EfficientNet_Pytorch 
    ```
 
-4. replace `Depth_Anything_V2/metric_depth/depth_anything_v2/dpt.py` with our modified version at [`dpt.py`](dpt.py).  
+4. replace `Depth_Anything_V2/metric_depth/depth_anything_v2/dpt.py` with our modified version at [`docs/dpt.py`](dpt.py).  
 
 ## 5. Download [finetuned checkpoint](https://huggingface.co/YkiWu/EmbodiedOcc) of Depth-Anything-V2 on Occ-ScanNet and put it under the **checkpoints**
 
