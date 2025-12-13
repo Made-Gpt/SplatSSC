@@ -7,7 +7,7 @@
 - **2025.11.08**: 🎉 Accepted to **AAAI** 2026 as **oral** presentation!  Stay tuned for more updates!
 - **2025.08.04**: [SplatSSC](https://arxiv.org/abs/2508.02261) is avaliable on arixv.
 
-EmbodiedOcc formulates **a monocular 3D occupancy prediction task** and proposes a Gaussian-based framework to accomplish it.
+SplatSSC formulates **a monocular 3D occupancy prediction task** and proposes a Gaussian-based framework to accomplish it.
 ![overview](./assets/appendix_base.png)
 
 
