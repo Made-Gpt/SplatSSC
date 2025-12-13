@@ -1,11 +1,11 @@
 # SplatSSC: Decoupled Depth-Guided Gaussian Splatting for Semantic Scene Completion
 
-### [Paper](https://arxiv.org/abs/2508.02261) 
+[Rui Qian](https://scholar.google.com/citations?user=ezQHNKwAAAAJ&hl=en), [Haozhi Cao](https://scholar.google.com/citations?user=EaRJECUAAAAJ&hl=en), [Tianchen Deng](https://github.com/dtc111111), [Shenghai Yuan](https://scholar.google.com/citations?user=XcV_sesAAAAJ&hl=en), [Lihua Xie](https://scholar.google.com/citations?user=Fmrv3J8AAAAJ&hl=en) 
 
 ## News
 - **2025.12.13**: Checkpoints and training information for depth branch and SplatSSC on Occ-ScanNet dataset are released! 
 - **2025.11.08**: 🎉 Accepted to **AAAI** 2026 as **oral** presentation!  Stay tuned for more updates!
-- **2025.08.04**: SplatSSC is avaliable on arixv.
+- **2025.08.04**: [SplatSSC](https://arxiv.org/abs/2508.02261) is avaliable on arixv.
 
 EmbodiedOcc formulates **a monocular 3D occupancy prediction task** and proposes a Gaussian-based framework to accomplish it.
 ![overview](./assets/appendix_base.png)
@@ -24,7 +24,7 @@ Monocular 3D Semantic Scene Completion (SSC) is a challenging yet promising task
 2. Docker Environment: Follow instructions [HERE](docs/docker_install.md) to prepare the docker environment.
 
 ### Data Preparation
-Prepare **posed_images** and **gathered_data** following the [Occ-ScanNet dataset](https://huggingface.co/datasets/hongxiaoy/OccScanNet) and move them to **data/occscannet**. The folder structure should look like the this: 
+Prepare **posed_images** and **gathered_data** following the [Occ-ScanNet dataset](https://huggingface.co/datasets/hongxiaoy/OccScanNet) and move them to **data/occscannet**. The folder structure should look like this: 
 
 ```bash
 SplatSSC
