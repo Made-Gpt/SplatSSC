@@ -6,9 +6,9 @@
 # --------------------------------------------------------
 
 import torch
-from typing import Optional, Union
-
-
+from typing import Optional, Union 
+ 
+ 
 class KeyLUT:
     VALID_SIZES = {'r32', 'r64', 'r128', 'r256', 'r512'}
 

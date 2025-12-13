@@ -11,9 +11,9 @@ from mmengine.model import BaseModule
 
 
 class CustomZOrder:
-    def __init__(self):
-        self.init = False
-
+    def __init__(self): 
+        self.init = False 
+ 
     def _call_init(self, ELUT=None, DLUT=None):
         """ ELUT = [EX, EY, EZ], DLUT = [DX, DY, DZ] """
         self.EX, self.EY, self.EZ = ELUT
