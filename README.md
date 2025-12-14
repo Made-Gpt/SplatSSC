@@ -1,15 +1,20 @@
-# SplatSSC: Decoupled Depth-Guided Gaussian Splatting for Semantic Scene Completion
+<div align="center">
+
+# (AAAI 2026 Oral) SplatSSC: Decoupled Depth-Guided Gaussian Splatting for Semantic Scene Completion 
+
+🎊 Project Page | 🦉[Paper](https://arxiv.org/pdf/2508.02261) | 🎄 Demo
 
 [Rui Qian](https://scholar.google.com/citations?user=ezQHNKwAAAAJ&hl=en), [Haozhi Cao](https://scholar.google.com/citations?user=EaRJECUAAAAJ&hl=en), [Tianchen Deng](https://github.com/dtc111111), [Shenghai Yuan](https://scholar.google.com/citations?user=XcV_sesAAAAJ&hl=en), [Lihua Xie](https://scholar.google.com/citations?user=Fmrv3J8AAAAJ&hl=en) 
+
+</div>
+
+SplatSSC formulates **a monocular 3D occupancy prediction task** and proposes a Gaussian-based framework to accomplish it.
+![overview](./assets/appendix_base.png)
 
 ## News
 - **2025.12.13**: Checkpoints and training information for depth branch and SplatSSC on Occ-ScanNet dataset are released! 
 - **2025.11.08**: 🎉 Accepted to **AAAI** 2026 as **oral** presentation!  Stay tuned for more updates!
 - **2025.08.04**: [SplatSSC](https://arxiv.org/abs/2508.02261) is avaliable on arixv.
-
-SplatSSC formulates **a monocular 3D occupancy prediction task** and proposes a Gaussian-based framework to accomplish it.
-![overview](./assets/appendix_base.png)
-
 
 ## Overview
 
