@@ -52,7 +52,7 @@ SplatSSC
 ### Model Zoo
 
 | Dataset          | Depth Model | Stage | Epoch |  IoU  | mIoU  |                            Config                            |                             Log                              |                            Weight                            |
-| ---------------- | ----------- | :---: | :---: | :---: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| :--------------- | ----------- | :---: | :---: | :---: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | Occ-ScanNet      | DaV2        |   1   |  10   |   -   |   -   |                              -                               |                              -                               | [weight](https://entuedu-my.sharepoint.com/:u:/g/personal/rqian003_e_ntu_edu_sg/IQDn7GWqp3uLQpebJNvH7kFhAaI7YpbK2xxgrxQTFzTWNKM?e=b0NSA0) |
 | Occ-ScanNet      | FT-DaV2     |   1   |  10   |   -   |   -   |                              -                               |                              -                               | [weight](https://entuedu-my.sharepoint.com/:u:/g/personal/rqian003_e_ntu_edu_sg/IQD7gbYlx2ygSKeV10wXTmG3AY9RUgEOYnT60S0xgWzM4BM?e=7AboVH) |
 | Occ-ScanNet      | FT-DaV2     |   2   |  10   | 62.83 | 51.83 | [config](https://entuedu-my.sharepoint.com/:u:/g/personal/rqian003_e_ntu_edu_sg/IQCp7gaQimbfR4_OfVa9t5JkAfwLwbB0IdoyYSSTws1sPrg?e=CxYMvH) | [log](https://entuedu-my.sharepoint.com/:u:/g/personal/rqian003_e_ntu_edu_sg/IQAS_IuaR4UrSqN55Tvq6HJwAeh0saERvzs_eexf7DV-fFk?e=fIEm8G) | [weight](https://entuedu-my.sharepoint.com/:u:/g/personal/rqian003_e_ntu_edu_sg/IQDNm_4TQDz8TYrcvG0lXIQIAW2NCaCZysqpCuNCZcVEDoI?e=p53wSB) |
@@ -91,10 +91,17 @@ SplatSSC
    bash scripts/test_mono_mini.sh  
    # base 
    bash scripts/test_mono.sh  
-   ```
-
+   ``` 
+  
 ## 👀 Visualization 
-`Still under processing ...`
+
+We provide a comprehensive toolkit for further visualization: [visualization repository](https://github.com/Made-Gpt/visualization_tools).
+
+**Features:**
+- 🥪 3D voxel rendering with rotating animations
+- 🍲 Training loss/mIoU curves and efficiency analysis  
+- 🌮 Gaussian splatting visualization (Mitsuba & Matplotlib)
+
 
 ## 🤝 Related Projects 
 
